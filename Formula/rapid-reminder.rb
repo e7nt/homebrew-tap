@@ -2,7 +2,7 @@ class RapidReminder < Formula
   desc "Set reliable reminders from messy human text without breaking terminal flow"
   homepage "https://github.com/e7nt/rapid-reminder"
   url "https://github.com/e7nt/rapid-reminder/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "4fe9584e8455faca81639ff9ceefad110235908961dacc2e0955b2579d9de54a"
+  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/e7nt/rapid-reminder.git", branch: "main"
 
