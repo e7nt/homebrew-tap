@@ -1,11 +1,11 @@
 class Lantern < Formula
   desc "Understanding-first AI coding workbench built around Helix"
   homepage "https://github.com/e7nt/lantern"
-  version "0.1.3"
+  version "0.1.4"
   license "AGPL-3.0-only"
 
-  url "https://github.com/e7nt/lantern/releases/download/v0.1.3/lantern-0.1.3-darwin-arm64.tar.gz"
-  sha256 "9788d8372c36451507d8e26082e1bb39ae0818b72b7cb45bbbdb95fde2c0e9af"
+  url "https://github.com/e7nt/lantern/releases/download/v0.1.4/lantern-0.1.4-darwin-arm64.tar.gz"
+  sha256 "9e71e9c39a82b7a227a7567c5d873a37f041469ad1afc8bce879f2786932dc64"
 
   depends_on "git"
   depends_on "node@22"
