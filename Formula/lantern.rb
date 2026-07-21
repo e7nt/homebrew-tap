@@ -1,24 +1,18 @@
 class Lantern < Formula
   desc "Understanding-first AI coding workbench built around Helix"
   homepage "https://github.com/e7nt/lantern"
-  version "0.1.1"
+  version "0.1.3"
   license "AGPL-3.0-only"
+
+  url "https://github.com/e7nt/lantern/releases/download/v0.1.3/lantern-0.1.3-darwin-arm64.tar.gz"
+  sha256 "9788d8372c36451507d8e26082e1bb39ae0818b72b7cb45bbbdb95fde2c0e9af"
 
   depends_on "git"
   depends_on "node@22"
   depends_on "python@3.12"
   depends_on "tmux"
   depends_on :macos
-
-  on_arm do
-    url "https://github.com/e7nt/lantern/releases/download/v0.1.1/lantern-0.1.1-darwin-arm64.tar.gz"
-    sha256 "d635e3adf880b073d8cc8ba889b5a4446bf37c403de36f7333ab6f1aac7fcb62"
-  end
-
-  on_intel do
-    url "https://github.com/e7nt/lantern/releases/download/v0.1.1/lantern-0.1.1-darwin-x86_64.tar.gz"
-    sha256 "c53a5a7890f32e29911d4f661e7b81197e5214094f0f6b29907c57d7057d70af"
-  end
+  depends_on arch: :arm64
 
   def install
     libexec.install Dir["*"]
