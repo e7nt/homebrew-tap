@@ -1,7 +1,7 @@
 class Lantern < Formula
   desc "Understanding-first AI coding workbench built around Helix"
   homepage "https://github.com/e7nt/lantern"
-  version "0.1.0"
+  version "0.1.1"
   license "AGPL-3.0-only"
 
   depends_on "git"
@@ -11,13 +11,13 @@ class Lantern < Formula
   depends_on :macos
 
   on_arm do
-    url "https://github.com/e7nt/lantern/releases/download/v0.1.0/lantern-0.1.0-darwin-arm64.tar.gz"
-    sha256 "7fbd3ad7811905b3953744243921edebc9f3d208de90d89d74cdc79ca8c02c95"
+    url "https://github.com/e7nt/lantern/releases/download/v0.1.1/lantern-0.1.1-darwin-arm64.tar.gz"
+    sha256 "d635e3adf880b073d8cc8ba889b5a4446bf37c403de36f7333ab6f1aac7fcb62"
   end
 
   on_intel do
-    url "https://github.com/e7nt/lantern/releases/download/v0.1.0/lantern-0.1.0-darwin-x86_64.tar.gz"
-    sha256 "75d59f39427c53205cd01a6ecf66fd4f8d9d9a9d1906a65e1e2f6bc69f5ad5fb"
+    url "https://github.com/e7nt/lantern/releases/download/v0.1.1/lantern-0.1.1-darwin-x86_64.tar.gz"
+    sha256 "c53a5a7890f32e29911d4f661e7b81197e5214094f0f6b29907c57d7057d70af"
   end
 
   def install
